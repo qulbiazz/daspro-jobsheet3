@@ -29,9 +29,8 @@ public class Siakad23{
         nilaiUAS = input.nextInt();
         
         nilaiAkhir = (int) ((nilaiKuis*0.2) + (nilaiTugas*0.15) + (nilaiUjian*0.3) + (nilaiUAS*0.35));
-        double totalnilaiakhir = nilaiAkhir / 4;
 
+        System.out.println("Nilai Akhir: " +nilaiAkhir);
         System.out.println("Mahasiswa dengan nama " + nama + " NIM " + nim + " Kelas " + Kelas + " Absen " + absen);
-        System.out.println("Nilai Akhir: " +totalnilaiakhir);
     }
 }
